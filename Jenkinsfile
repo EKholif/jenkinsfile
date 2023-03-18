@@ -19,5 +19,11 @@ pipeline {
       }
     }
 
+    stage('clean') {
+      steps {
+        echo 'done'
+      }
+    }
+
   }
 }
